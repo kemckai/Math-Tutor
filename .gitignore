@@ -26,6 +26,9 @@ logs/
 .idea/
 .vscode/
 
+# Streamlit secrets
+.streamlit/secrets.toml
+
 # Distribution / packaging
 dist/
 build/

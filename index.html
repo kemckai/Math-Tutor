@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Math Tutor</title>
+  <style>
+    :root {
+      --bg: #0b0b0b;
+      --panel: #171717;
+      --text: #f5f5f5;
+      --muted: #c9c9c9;
+      --accent: #c1121f;
+      --accent-2: #ffb703;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: grid;
+      place-items: center;
+      font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background:
+        radial-gradient(circle at top, rgba(193, 18, 31, 0.28), transparent 35%),
+        linear-gradient(180deg, #111 0%, var(--bg) 100%);
+      color: var(--text);
+      padding: 24px;
+    }
+
+    .card {
+      width: min(760px, 100%);
+      background: rgba(23, 23, 23, 0.92);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      border-radius: 24px;
+      padding: 40px;
+      box-shadow: 0 24px 80px rgba(0, 0, 0, 0.45);
+    }
+
+    .badge {
+      display: inline-block;
+      padding: 8px 12px;
+      border-radius: 999px;
+      background: rgba(255, 183, 3, 0.14);
+      color: var(--accent-2);
+      font-size: 14px;
+      font-weight: 600;
+      letter-spacing: 0.02em;
+      margin-bottom: 18px;
+    }
+
+    h1 {
+      font-size: clamp(2.4rem, 6vw, 4.5rem);
+      line-height: 0.95;
+      margin: 0 0 16px;
+    }
+
+    p {
+      font-size: 1.05rem;
+      line-height: 1.7;
+      color: var(--muted);
+      margin: 0 0 16px;
+    }
+
+    .actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 14px;
+      margin-top: 28px;
+    }
+
+    .button {
+      text-decoration: none;
+      padding: 14px 18px;
+      border-radius: 14px;
+      font-weight: 700;
+      transition: transform 0.18s ease, opacity 0.18s ease;
+    }
+
+    .button:hover {
+      transform: translateY(-1px);
+      opacity: 0.95;
+    }
+
+    .primary {
+      background: var(--accent);
+      color: white;
+    }
+
+    .secondary {
+      background: transparent;
+      color: var(--text);
+      border: 1px solid rgba(255, 255, 255, 0.14);
+    }
+
+    .note {
+      margin-top: 28px;
+      padding-top: 22px;
+      border-top: 1px solid rgba(255, 255, 255, 0.08);
+      font-size: 0.96rem;
+    }
+
+    code {
+      color: #fff;
+      background: rgba(255, 255, 255, 0.08);
+      padding: 2px 6px;
+      border-radius: 6px;
+    }
+  </style>
+</head>
+<body>
+  <main class="card">
+    <div class="badge">Math Tutor</div>
+    <h1>Interactive Math Help, Step by Step</h1>
+    <p>
+      This repository contains a Streamlit app, so the full interactive tutor is deployed separately from GitHub Pages.
+    </p>
+    <p>
+      Use the source code link below, or replace the live app link with your Streamlit deployment URL once it is published.
+    </p>
+
+    <div class="actions">
+      <a class="button primary" href="https://share.streamlit.io/" target="_blank" rel="noreferrer">Deploy / Open Live App</a>
+      <a class="button secondary" href="https://github.com/kemckai/Math-Tutor" target="_blank" rel="noreferrer">View Source</a>
+    </div>
+
+    <p class="note">
+      If GitHub Pages is enabled from the repo root, it will serve this <code>index.html</code> instead of the README.
+    </p>
+  </main>
+</body>
+</html>

@@ -2,6 +2,11 @@
 
 An interactive, AI-powered math tutoring application built with Streamlit. Practice math concepts step-by-step, draw solutions on a canvas, and get intelligent hints powered by OpenAI.
 
+## Live App
+
+- Deploy the Streamlit app on Streamlit Community Cloud for the actual interactive experience.
+- Use GitHub Pages only as a lightweight landing page.
+
 ## Features
 
 - **Concept Library** — Browse and select math topics organized by category
@@ -53,6 +58,29 @@ streamlit run app.py
 ```
 
 Then open [http://localhost:8501](http://localhost:8501) in your browser.
+
+## Deploy
+
+### Streamlit Community Cloud
+
+This repo is set up for Streamlit Community Cloud deployment:
+
+- `app.py` is the entrypoint
+- `requirements.txt` contains Python dependencies
+- `packages.txt` contains system packages for OCR
+- `.streamlit/config.toml` contains Streamlit app settings
+
+Deployment steps:
+
+1. Go to Streamlit Community Cloud.
+2. Connect the GitHub repo `kemckai/Math-Tutor`.
+3. Select `app.py` as the main file.
+4. Add `OPENAI_API_KEY` in the app secrets/settings.
+5. Deploy.
+
+### GitHub Pages
+
+GitHub Pages cannot run a Python Streamlit app. In this repo it is intended only for a simple landing page via `index.html`.
 
 ## Project Structure
 
