@@ -1,0 +1,244 @@
+APPLICATIONS FOR SIMPLE INTEREST
+Simple Interest: I = P * r * t
+I = interest earned, P = principal (starting amount), r = annual interest rate as
+decimal, t = time in years
+Amount after time t: A = P + I = P(1 + rt)
+Example: 1000 at 5% for 3 years: I = 1000 * 0.05 * 3 = 150, A = 1000 + 150 = 1150
+APPLICATIONS FOR COMPOUND INTEREST
+Compound Interest: A = P(1 + r/n)^(n*t)
+A = nal amount, P = principal, r = annual rate as decimal, n = times compounded
+per year, t = time in years
+Continuous Compound: A = P * e^(r*t)
+Example: 1000 at 5% compounded monthly for 3 years: A = 1000(1 +
+0.05/12)^(12*3) = 1000(1.004167)^36 = 1161.47
+
+APPLICATIONS FOR DISTANCE
+Distance Formula: d = r * t
+d = distance, r = rate (speed), t = time
+Solving for rate: r = d / t
+Solving for time: t = d / r
+Average Speed: Total distance divided by total time
+Example: Travel 120 miles in 2 hours: r = 120/2 = 60 mph
+Example: Need to travel 300 miles at 50 mph: t = 300/50 = 6 hours
+APPLICATIONS FOR VOLUME
+Rectangular Prism: V = l * w * h
+Cylinder: V = π * r^2 * h
+Sphere: V = (4/3) * π * r^3
+Cone: V = (1/3) * π * r^2 * h
+Example: Cylinder radius 3, height 5: V = π * 9 * 5 = 45π cubic units
+APPLICATIONS FOR MIXTURE
+Mixture Problems: (concentration1 * quantity1) + (concentration2 * quantity2) = ( nal
+concentration * nal quantity)
+Value Mixture: (price1 * quantity1) + (price2 * quantity2) = (final price * final quantity)
+Steps: Identify what is being mixed, set up equation based on total amount or total
+value, solve for unknown quantity
+Example: 2 liters of 30% acid mixed with 3 liters of 50% acid: 0.3(2) + 0.5(3) = 0.6 +
+1.5 = 2.1 acid, total 5 liters, nal concentration = 2.1/5 = 0.42 or 42%
+
+fi
+
+fi
+
+fi
+
+fi
+
+FUNCTIONS AND RELATIONS
+Relation: Any set of ordered pairs (x, y)
+Function: Each x has exactly one y
+Vertical Line Test: If a vertical line touches graph more than once, it is not a function
+Example: Is {(1,2), (1,3), (2,4)} a function? No because x=1 has two y-values
+
+LINEAR EQUATIONS IN TWO VARIABLES
+Form: ax + by = c
+Steps to solve: Isolate y: y = (-a/b)x + (c/b)
+Slope = -a/b
+y-intercept = c/b
+Example: 2x + 3y = 6 becomes y = (-2/3)x + 2
+LINEAR FUNCTIONS
+Form: f(x) = mx + b
+m = slope = rise/run = (y2 - y1)/(x2 - x1)
+b = y-intercept
+Example: f(x) = 2x - 3 has slope 2 and crosses y-axis at -3
+LINEAR AND RATIONAL EQUATIONS
+Linear: ax + b = 0 becomes x = -b/a
+Rational: Has variable in denominator
+Steps: Find LCD, multiply all terms by LCD, solve resulting equation, check for
+extraneous solutions where denominator equals zero
+Example: 3/(x-2) = 5 becomes 3 = 5(x-2) becomes 3 = 5x - 10 becomes 13 = 5x
+becomes x = 13/5
+APPLICATIONS OF LINEAR EQUATIONS AND MODELLING
+Steps: Identify variables, nd slope as rate of change, nd y-intercept as starting
+value, write equation y = mx + b, solve for what is asked
+Example: Cell phone 30 per month plus 0.10 per minute becomes C = 30 + 0.10m
+APPLICATIONS WITH LINEAR AND RATIONAL EQUATIONS
+Use same steps as linear and rational equations but apply to word problems
+Identify the unknown, set up equation, solve, check if answer makes sense in
+context
+ABSOLUTE VALUE EQUATIONS
+|ax + b| = c
+Steps: If c is less than 0, no solution. If c equals 0, then ax + b = 0. If c is greater
+than 0, solve two equations: ax + b = c and ax + b = -c
+Example: |2x - 1| = 5 gives 2x - 1 = 5 so x = 3, or 2x - 1 = -5 so x = -2
+
+fi
+
+fl
+
+fi
+
+LINEAR COMPOUND AND ABSOLUTE VALUE INEQUALITIES
+Linear: ax + b > c, solve like equation but ip sign if multiplying or dividing by
+negative
+Compound: AND means intersection, OR means union
+Absolute Value: |expression| < c becomes -c < expression < c. |expression| > c
+becomes expression < -c or expression > c
+Example: |x - 2| < 3 becomes -3 < x - 2 < 3 becomes -1 < x < 5
+
+TRANSFORMATION OF GRAPHS
+y = a * f(b(x - h)) + k
+a: vertical stretch if absolute value greater than 1, compression if less than 1,
+negative ips over x-axis
+b: horizontal compression if absolute value greater than 1, stretch if less than 1,
+negative ips over y-axis
+h: horizontal shift right if h positive
+k: vertical shift up if k positive
+Example: f(x) = square root of x becomes g(x) = 2 times square root of (x-3) plus 1
+stretches by 2, shifts right 3, shifts up 1
+ANALYZING GRAPHS AND PIECEWISE DEFINED
+Domain: All possible x-values
+Range: All possible y-values
+Increasing: Graph going up as x increases
+Decreasing: Graph going down as x increases
+Piecewise: Different rules for different x-intervals
+Example: f(x) = x squared when x is less than 0, and 2x when x is greater than or
+equal to 0
+ALGEBRA OF FUNCTIONS
+(f + g)(x) = f(x) + g(x)
+(f - g)(x) = f(x) - g(x)
+(f * g)(x) = f(x) * g(x)
+(f / g)(x) = f(x) / g(x) where g(x) does not equal 0
+Example: f(x) = x squared, g(x) = x + 1 gives (f + g)(x) = x squared + x + 1
+FUNCTION COMPOSITION
+(f composed with g)(x) = f(g(x))
+Order matters. Do g first, then f
+Example: f(x) = x squared, g(x) = x + 1 gives f(g(x)) = (x + 1) squared
+COMPLEX NUMBERS
+i = square root of negative 1
+Form: a + bi
+Add: (a + bi) + (c + di) = (a + c) + (b + d)i
+Multiply: Use FOIL, remember i squared = -1
+Example: (2 + 3i)(1 - 2i) = 2 - 4i + 3i - 6i squared = 2 - i + 6 = 8 - i
+
+fl
+
+fl
+
+QUADRATIC EQUATIONS
+Standard: ax squared + bx + c = 0
+Solve by factoring: Find numbers that multiply to ac and add to b
+Solve by quadratic formula: x = [-b ± square root of (b squared - 4ac)] / (2a)
+Solve by completing square: x squared + bx = -c, add (b/2) squared to both sides
+Discriminant: b squared - 4ac. If greater than 0, two real solutions. If equal to 0, one
+real solution. If less than 0, two complex solutions
+
+QUADRATIC FUNCTIONS AND APPLICATIONS
+f(x) = ax squared + bx + c
+Vertex: (-b/(2a), f(-b/(2a)))
+Axis of symmetry: x = -b/(2a)
+If a is greater than 0, opens up with minimum at vertex. If a is less than 0, opens
+down with maximum at vertex
+Example: f(x) = x squared - 4x + 3 has vertex at (2, -1)
+POLYNOMIAL FUNCTIONS
+Degree: Highest power
+Leading coefficient: Number in front of highest power
+End behavior: As x approaches in nity, y approaches same sign as leading
+coef cient if degree is even, opposite sign if degree is odd
+DIVISION OF POLYNOMIALS
+Long Division: Like regular division but with variables
+Synthetic Division: Shortcut when dividing by (x - k)
+Example: (x cubed - 2x squared + 4) divided by (x - 3) gives quotient x squared + x +
+3 with remainder 13
+REMAINDER THEOREM
+When polynomial P(x) is divided by (x - c), the remainder equals P(c)
+Example: P(x) = x cubed - 2x squared + 4 divided by (x - 3) gives remainder P(3) =
+27 - 18 + 4 = 13
+FACTOR THEOREM
+(x - c) is a factor of P(x) if and only if P(c) = 0
+Example: P(2) = 0 means (x - 2) is a factor
+ZEROS OF POLYNOMIALS
+Rational Root Theorem: Possible rational zeros are factors of constant term divided
+by factors of leading coef cient
+Steps: List possible rational zeros, test each using synthetic division, factor
+completely when you nd one, repeat
+RATIONAL FUNCTIONS
+f(x) = p(x)/q(x) where p and q are polynomials
+Domain: All x except where q(x) equals 0
+Vertical asymptotes: Where q(x) equals 0 after canceling common factors
+Horizontal asymptotes: Compare degrees. If top degree less than bottom degree, y =
+0. If top degree equals bottom degree, y equals ratio of leading coef cients. If top
+degree greater than bottom degree, no horizontal asymptote or has slant asymptote
+
+fi
+
+fi
+
+fi
+
+fi
+
+fi
+
+fi
+
+fi
+
+fi
+
+fi
+
+GRAPHS OF RATIONAL FUNCTIONS
+Steps: Find domain by excluding zeros of denominator, nd vertical asymptotes, nd
+horizontal or slant asymptotes, nd x-intercepts from zeros of numerator, nd yintercept from f(0), plot points and sketch
+
+POLYNOMIAL INEQUALITIES
+Steps: Get zero on one side, nd zeros of polynomial, plot zeros on number line, test
+each interval, write solution in interval notation
+RATIONAL INEQUALITIES
+Steps: Get zero on one side using common denominator, nd zeros of numerator
+and denominator, plot on number line with holes at denominator zeros, test each
+interval, write solution
+INVERSE FUNCTIONS
+f inverse (x) undoes f(x)
+Steps to nd: Replace f(x) with y, swap x and y, solve for y, replace y with f inverse
+(x)
+Check: f(f inverse (x)) = x and f inverse (f(x)) = x
+Example: f(x) = 2x + 3 becomes y = 2x + 3 becomes x = 2y + 3 becomes 2y = x - 3
+becomes y = (x - 3)/2 which equals f inverse (x)
+EXPONENTIAL FUNCTIONS
+f(x) = a * b to the x power where b is greater than 0 and b does not equal 1
+Growth: b is greater than 1
+Decay: b is between 0 and 1
+Key point: Always passes through (0, a)
+Example: f(x) = 2 * 3 to the x power grows and passes through (0, 2)
+LOGARITHMIC FUNCTIONS
+log base b of x = y means b to the y power = x
+f(x) = log base b of x is the inverse of f(x) = b to the x power
+Domain: x is greater than 0
+Vertical asymptote: x = 0
+Example: log base 2 of 8 = 3 because 2 cubed = 8
+
+fi
+
+fi
+
+fi
+
+PROPERTIES OF LOGARITHMS
+Product: log base b of (MN) = log base b of M + log base b of N
+Quotient: log base b of (M/N) = log base b of M - log base b of N
+Power: log base b of (M to the p power) = p times log base b of M
+Change of base: log base b of M = log base a of M divided by log base a of b
+Example: log base 2 of (8x) = log base 2 of 8 + log base 2 of x = 3 + log base 2 of x
+
+
